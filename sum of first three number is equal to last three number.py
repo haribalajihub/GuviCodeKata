@@ -1,0 +1,9 @@
+a=int(input())
+n=list(map(int,input().strip().split()))[:a]
+b=n[::-1]
+y=n[0]+n[1]+n[2]
+z=b[0]+b[1]+b[2]
+if(y==z):
+    print(1)
+else:
+    print(0)
